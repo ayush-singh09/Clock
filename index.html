@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css"
+    rel="stylesheet"/>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="main">
+        <div class="left">
+            <div class="mode">
+                <div class="logo">
+                    <img src="clock.png" alt="clock logo">
+                    <h1>CLOCK</h1>
+                </div>
+                <div class="ld-mode"><i class="ri-moon-line"></i></div>
+            </div>
+            <div class="set-time">
+                <div class="selection">
+                    <i class="ri-sun-line"></i>
+                    <h2>Set wake-up Time</h2>
+                    <select name="select-time" id="wake-up-time">
+                        <option value="none">none</option>
+                        <option value="4">4AM - 5AM</option>
+                        <option value="5">5AM - 6AM</option>
+                        <option value="6">6AM - 7AM</option>
+                        <option value="7">7AM - 8AM</option>
+                        <option value="8">8AM - 9AM</option>
+                        <option value="9">9AM - 10AM</option>
+                    </select>
+                </div>
+                <hr>
+                <div class="selection">
+                    <i class="ri-restaurant-line"></i>
+                    <h2>Set Lunch Time</h2>
+                    <select name="Select Time" id="lunch-time">
+                        <option value="none">none</option>
+                        <option value="11">11AM - 12AM</option>
+                        <option value="12">12AM - 1AM</option>
+                        <option value="1">1AM - 2AM</option>
+                        <option value="2">2AM - 3AM</option>
+                        <option value="3">3AM - 4AM</option>
+                    </select>
+                </div>
+                <hr>
+                <div class="selection">
+                    <i class="ri-zzz-fill"></i>
+                    <h2>Set Nap Time</h2>
+                    <select name="Select Time" id="nap-time">
+                        <option value="none">none</option>
+                        <option value="4">4AM - 5AM</option>
+                        <option value="5">5AM - 6AM</option>
+                        <option value="6">6AM - 7AM</option>
+                        <option value="7">7AM - 8AM</option>
+                    </select>
+                </div>
+                <hr>
+                <div class="selection">
+                    <i class="ri-moon-line"></i>
+                    <h2>Set Night Time</h2>
+                    <select name="Select Time" id="night-time">
+                        <option value="none">none</option>
+                        <option value="8">8AM - 9AM</option>
+                        <option value="9">9AM - 10AM</option>
+                        <option value="10">10AM - 11AM</option>
+                        <option value="11">11AM - 12AM</option>
+                        <option value="12">12AM - 1AM</option>
+                    </select>
+                </div>
+            </div>
+            <div class="greet"><h1 class="greeting">Greeting</h1></div>
+            <div class="set-alarm">
+                <button class="btn">Set Alarm</button>
+                <div class="alarms">
+                    <h4 class="wut">Wake-up Time</h4>
+                    <h4 class="lt">Lunch Time</h4>
+                    <h4 class="napt">Nap Time</h4>
+                    <h4 class="nt">Night Time</h4>
+                </div>
+            </div>
+        </div>
+        <div class="right">
+            <div class="time-pannel">
+                <h1>TIME</h1>
+                <h1>-</h1>
+                <h1 class="time-text hour"></h1>
+                <h1>:</h1>
+                <h1 class="time-text minute"></h1>
+                <h1>:</h1>
+                <h1 class="time-text second"></h1>
+                <h1 class="time-text p">AM</h1>
+            </div>
+            <div class="display">
+                <h2>To Set Alarm Select Time and Press Button</h2>
+            </div>
+            <div class="img-display">
+                <img class="image" src="morning.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
